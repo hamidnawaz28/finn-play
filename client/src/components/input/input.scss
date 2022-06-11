@@ -1,0 +1,22 @@
+@import '../../theme/colors.scss';
+@import '../../theme/font.scss';
+@import '../../theme/shapes.scss';
+
+.input {
+    background-color: $light;
+    border: 1px solid $border;
+    border-radius: $border-radius1;
+    padding: 16px;
+    &__field {
+        border: none;
+        width: -webkit-fill-available;
+        font-size: $large-size;
+        &:focus{
+            outline: none;
+        }
+    }
+    &__label {
+        color: $text-secondary;
+        padding-bottom: 1px;
+    }
+}

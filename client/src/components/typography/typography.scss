@@ -1,0 +1,43 @@
+@import '../../theme/colors';
+@import '../../theme/font';
+
+.sub-title {
+    color: $text-secondary;
+    font-size:$large-size
+}
+
+.h1 {
+    font-size: $h1-size;
+}
+
+.h2{
+    font-size: $xlarge-size;
+}
+
+.x-large{
+    font-size: $xlarge-size;
+}
+
+.large{
+    font-size: $large-size;
+}
+
+.normal{
+    font-size: $normal-size;
+}
+
+.small{
+    font-size: $small-size;
+}
+
+.weight-bold {
+    font-weight: $font-weight-bold;
+}
+
+.weight-regular {
+    font-weight: $font-weight-regular;
+}
+
+.grey {
+    color: $text-secondary;
+}

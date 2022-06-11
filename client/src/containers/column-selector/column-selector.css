@@ -1,0 +1,28 @@
+.columns-selector {
+  display: grid;
+  grid-template-columns: min-content auto min-content auto min-content;
+  width: 100%; }
+  .columns-selector__item {
+    width: fit-content; }
+  .columns-selector__nob {
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 1px #FDBC11;
+    background-color: #FDBC11;
+    padding: 1px 5px;
+    width: 10px;
+    text-align: center;
+    font-size: 1.33333rem; }
+    .columns-selector__nob:hover {
+      cursor: pointer; }
+    .columns-selector__nob-selected {
+      background-color: #F2F2F2;
+      box-shadow: 0px 0px 0px 3px #F2F2F2; }
+  .columns-selector__bar {
+    display: flex;
+    place-items: center; }
+    .columns-selector__bar div {
+      width: 100%;
+      height: 60%;
+      background-color: #FDBC11; }
+    .columns-selector__bar-selected div {
+      background-color: #F2F2F2; }

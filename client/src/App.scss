@@ -1,0 +1,5 @@
+@import '../src/theme/font';
+.app-container {
+  font: $font-family;
+  height: 100vh;
+}

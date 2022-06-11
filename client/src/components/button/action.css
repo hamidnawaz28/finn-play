@@ -1,0 +1,12 @@
+.action {
+  color: #ADADAD;
+  width: 120px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px; }
+  .action:hover {
+    cursor: pointer; }
+  .action-disabled:hover {
+    cursor: initial; }

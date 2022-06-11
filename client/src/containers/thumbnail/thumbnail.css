@@ -1,0 +1,9 @@
+.thumbnail-container {
+  display: grid;
+  gap: 20px; }
+  .thumbnail-container-two-columns {
+    grid-template-columns: repeat(2, 1fr); }
+  .thumbnail-container-three-columns {
+    grid-template-columns: repeat(3, 1fr); }
+  .thumbnail-container-four-columns {
+    grid-template-columns: repeat(4, 1fr); }

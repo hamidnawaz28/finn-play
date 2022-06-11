@@ -1,0 +1,22 @@
+@import '../../theme/colors';
+@import '../../theme/shapes';
+
+
+.action {
+    color: $black-25;
+    width: 120px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:$border-radius1 ;
+    &:hover {
+        // color: $black;
+        cursor: pointer;
+    }
+    &-disabled{
+        &:hover {
+            cursor:initial;
+        }
+    }
+}

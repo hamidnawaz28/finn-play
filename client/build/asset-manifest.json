@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e6a3193.css",
+    "main.js": "/static/js/main.5c96a1f4.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/merkur.png": "/static/media/merkur.72d0259ffa7df6590a7f.png",
+    "static/media/relax.png": "/static/media/relax.d875b1b86001ecae2008.png",
+    "static/media/swintt.png": "/static/media/swintt.da237e9dd2eebae14c52.png",
+    "static/media/greentube.png": "/static/media/greentube.469380a897c554e696bd.png",
+    "static/media/gameart.png": "/static/media/gameart.2280dabb152935efc0d4.png",
+    "static/media/endorphina.svg": "/static/media/endorphina.f510acae081739589074.svg",
+    "static/media/blueprint.png": "/static/media/blueprint.670201f67b787d259980.png",
+    "static/media/microgaming.png": "/static/media/microgaming.d7d4d62e6d689fcdb62a.png",
+    "static/media/finnplay.svg": "/static/media/finnplay.39f532095392f7204029151d02fbf59e.svg",
+    "static/media/user-watermark.svg": "/static/media/user-watermark.198332be8b4a62a611a5510bc75e74ef.svg",
+    "static/media/edit-icon.svg": "/static/media/edit-icon.c3b80d861eac510e1b620960e6e70a92.svg",
+    "static/media/add-icon.svg": "/static/media/add-icon.112a055027c78c6c3b9445b370ebbbd4.svg",
+    "static/media/close-icon.svg": "/static/media/close-icon.68834f3097b36e10f18a83df3ebb860f.svg",
+    "static/media/delete-icon.svg": "/static/media/delete-icon.c3387859c93dc5e917004ef0967fe12e.svg",
+    "index.html": "/index.html",
+    "main.3e6a3193.css.map": "/static/css/main.3e6a3193.css.map",
+    "main.5c96a1f4.js.map": "/static/js/main.5c96a1f4.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e6a3193.css",
+    "static/js/main.5c96a1f4.js"
+  ]
+}

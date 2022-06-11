@@ -1,0 +1,10 @@
+const sortData = [
+  {
+    id: 1,
+    name: "A-Z",
+  },
+  { id: 2, name: "Z-A" },
+  { id: 3, name: "Newest" },
+];
+
+export { sortData };

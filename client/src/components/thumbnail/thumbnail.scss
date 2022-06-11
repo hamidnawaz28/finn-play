@@ -1,0 +1,44 @@
+@import '../../theme/colors';
+@import '../../theme/shapes';
+@import '../../theme/font';
+
+
+.thumbnail {   
+     position: relative;
+     &__image {
+          width: 100%;
+          border-radius: $border-radius2;
+     }
+     
+     &__details {
+          display: none;
+     }
+     &:hover {
+          .thumbnail__details {
+               display: block;
+               position: absolute;
+               top: 0px;
+               left: 0px;
+               height: 100%;
+               width: 100%;
+               border-radius: $border-radius2;
+               background-color: rgba($color: $black, $alpha: 0.7);
+               &__text {
+                    font-size: $large-size;
+                    color: $light;
+                    position: absolute;
+                    bottom: 10px;
+                    left: 15px;
+               }
+          }
+     }
+}
+
+.thumbnail__non-embed {
+     padding: 5px 0px;
+     font-size:  $normal-size;;
+}   
+
+.thumbnail-wrap {
+
+}

@@ -1,0 +1,13 @@
+.filter {
+  width: max-content;
+  padding: 3px 0px; }
+  .filter__button {
+    border: none;
+    color: #2B2B2B;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 6px; }
+    .filter__button:hover {
+      cursor: pointer; }
+    .filter__button--selected {
+      background-color: #FDBC11; }

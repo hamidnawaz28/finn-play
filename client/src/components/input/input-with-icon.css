@@ -1,0 +1,23 @@
+.search-filter {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #edebeb; }
+  .search-filter__field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none; }
+    .search-filter__field::placeholder {
+      color: #808080;
+      font-size: 1.33333rem; }
+  .search-filter__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0 10px;
+    color: #808080; }
+    .search-filter__icon:hover {
+      cursor: pointer; }

@@ -1,0 +1,26 @@
+.thumbnail {
+  position: relative; }
+  .thumbnail__image {
+    width: 100%;
+    border-radius: 8px; }
+  .thumbnail__details {
+    display: none; }
+  .thumbnail:hover .thumbnail__details {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(43, 43, 43, 0.7); }
+    .thumbnail:hover .thumbnail__details__text {
+      font-size: 1.33333rem;
+      color: #FFFFFF;
+      position: absolute;
+      bottom: 10px;
+      left: 15px; }
+
+.thumbnail__non-embed {
+  padding: 5px 0px;
+  font-size: 1.16667rem; }

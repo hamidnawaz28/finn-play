@@ -1,0 +1,22 @@
+@import "../../theme/colors";
+@import "../../theme/font";
+@import "../../theme/shapes";
+
+
+.filter {
+    width: max-content;
+    padding: 3px 0px;
+    &__button {
+        border: none;
+        color: $text-primary;
+        background-color: $light;
+        border-radius: $border-radius1;
+        padding: 6px;
+        &:hover{
+            cursor: pointer;
+        }
+        &--selected {
+            background-color: $primary-main;
+        }
+    }
+}

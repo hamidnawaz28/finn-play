@@ -1,0 +1,14 @@
+.input {
+  background-color: #FFFFFF;
+  border: 1px solid #edebeb;
+  border-radius: 4px;
+  padding: 16px; }
+  .input__field {
+    border: none;
+    width: -webkit-fill-available;
+    font-size: 1.33333rem; }
+    .input__field:focus {
+      outline: none; }
+  .input__label {
+    color: #808080;
+    padding-bottom: 1px; }

@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .header__user:hover {
+      cursor: pointer; }
+    .header__user__text {
+      color: #EC4466; }
+    .header__user__watermark {
+      padding: 0px 10px; }
